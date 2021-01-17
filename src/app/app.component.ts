@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-editor-test';
+
+  htmlContent: string;
+
+  show(){
+    console.log(this.htmlContent);
+  }
 }
