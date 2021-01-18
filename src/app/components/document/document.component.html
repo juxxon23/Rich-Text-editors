@@ -1,0 +1,12 @@
+<div>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" (click)='editDoc()'>
+  >
+    <input formControlName="uno" class="uno"   placeholder='Start typing 1...'>
+    <textarea formControlName="dos" class="dos" placeholder='Start typing 2...'></textarea>
+
+
+    <button class="btn waves-effect waves-light" type="submit" name="action" [disabled]="form.invalid">Registrarse
+      <i class="material-icons right">send</i>
+    </button>
+  </form>
+</div>
