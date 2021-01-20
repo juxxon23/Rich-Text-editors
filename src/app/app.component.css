@@ -4,6 +4,6 @@ body {
 }
 
 #editorSAC {
-    max-width: 50%;
-    margin: 0 30%;
+    width: 66.00em;
+    margin: 0px auto;
 }

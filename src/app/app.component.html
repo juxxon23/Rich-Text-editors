@@ -1,4 +1,4 @@
 <div id="editorSAC">
-    <quill-editor [modules]="editorModules" (onEditorChanged)="changedEditor($event)"></quill-editor>
+    <quill-editor [modules]="editorModules" (onEditorCreated)="editor($event)" (onEditorChanged)="changedEditor($event)"></quill-editor>
 </div>
 <div [innerHTML]='editorText'></div>
